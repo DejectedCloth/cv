@@ -1,0 +1,214 @@
+body {
+    margin: 0;
+    height:2500px;
+    background-color: paleturquoise;
+}
+
+.name{
+    text-align: center;
+    line-height: 150px;
+    padding:0px;
+    border:0px;
+    max-height: 200px;
+    font-family: 'Lobster', cursive;
+    color:aliceblue;
+    font-size: 40px;
+}
+
+#hook {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color:aliceblue;
+}
+
+.intro{
+    background-color: crimson;
+    height: 800px;
+    padding:50px;
+    padding-bottom: 90px;
+    margin: 0px;
+    margin-bottom: 0px;
+    border-bottom:5px;
+
+}
+
+.section_title{
+    font-family: 'Anton', sans-serif;
+    color:crimson;
+    text-align: center;
+    font-size: 27px;
+}
+
+.subtitles{
+    font-family: 'Anton', sans-serif;
+    color:crimson;
+    text-align: center;
+    font-size: 22px;
+}
+
+.info{
+    height: 1420px;
+    background-color: paleturquoise;
+    position:relative; /*remove*/
+}
+
+#stack_img{
+    height:200px;
+    /*width: 200px;*/
+}
+
+#languages_left{
+    float:left;
+    margin-left: 560px;
+    bottom:740px;
+    position: absolute; /*remove*/
+
+}
+
+#languages_right{
+    float:right;
+    margin-right:600px;
+    margin-top:60px;
+    font-size: 22px;
+    max-width: 200px; /*remove*/
+}
+
+#experience_left{
+    float:left;
+    margin-left:470px;
+    margin-top:60px;
+    font-size: 22px;
+}
+
+#experience_right{
+    float:right;
+    margin-left: 500px;
+    right: 500px;
+    bottom:430px;
+    position: absolute;
+}
+
+#skills_left{
+    float:left;
+    margin-left: 500px;
+    bottom:135px;
+    position: absolute; /*remove*/
+}
+
+#skills_right{
+    float:right;
+    margin-right:500px;
+    margin-top:0px;
+    font-size: 22px;
+}
+
+#desktop_img{
+    height:200px;
+}
+
+.copyright {
+    bottom:0%;
+    text-align: center;
+    background-color:crimson;
+    height:125px;
+    font-size:22px;
+    
+}
+
+.bulldog_img{
+    position: absolute;
+    height:225px;
+    left:150px;
+    top:200px;
+}
+
+.arch_img{
+    position: absolute;
+    left:380px;
+    top: 320px;
+    
+    width: 50%;
+    height: 65%;
+}
+
+.tea_img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    height:225px;
+    margin-top:20px;
+}
+
+#business_img{
+    height:200px;
+}
+
+a:hover{
+    color:crimson;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a{
+    color:green
+}
+
+.button{
+    display: block;
+    width: 115px;
+    height: 25px;
+    background: lightseagreen;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color:black;
+    font-weight: bold;
+    line-height: 25px;
+    margin-left:692px;
+    margin-top:70px;
+}
+
+hr{
+    border-top: dotted 5px;
+    border-color:paleturquoise;
+    border-top-color:black;
+    width: 45%;
+}
+
+#intro_description{
+    text-align: center;
+    font-size: 20px;
+}
+
+.clear{ clear:both}
+
+#last_hr{
+    border-top: solid 5px;
+    width:100%;
+    border-bottom-color: crimson;
+    border-left-color: crimson;
+    border-right-color: crimson;
+}
+
+.contact_info{
+    text-align: center;
+    font-size: 20px;
+}
+
+#contact_name{
+    color:black;
+}
+
+.input_left{
+    float:left;
+    margin-left: 45%;
+    font-size: 18px;
+}
+
+.input_right{
+    float:right;
+    margin-right:38%;
+}
